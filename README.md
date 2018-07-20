@@ -1,7 +1,7 @@
 <!-- for Markdown Documentations refer : https://guides.github.com/features/mastering-markdown/  -->
 
 # UI-Interview-Questions
-### Below list is of Interview Questions based on my experience with different Interviewers:
+### Below list of Interview Questions are based on my own experience with different Interviewers:
 
 **HTML** : [HTML and HTML5 interview Questions](./html-interview-questions.md) 
 
