@@ -57,5 +57,33 @@
 ### Have you worked with video Streaming?
 
 ### Unit test tools you use?
+====================================================
+### What are Interceptors in Angular and have you used them?
 
+### Is Javascript pass by value or pass by reference?
 
+### Testing? which all tools worked apart from Jasmine.
+
+### Have you used AOP type of programming?
+
+### What code have you done which makes you proud?...Providers and factories
+
+> - custom theme based on angular material.
+> - Authentication before loading of angular code or modules
+
+### Difference between httpOptions and httpParameters?
+
+### list down all the ways of communication between child and grand parent component?
+
+> - @Output 
+> - Subjects VS BehaviourSubject
+
+### i have 5 containers. Align them in such a way that 3 containers comes on first row (all will have same width) and 4th container if added will come to next line (it will take whole row) but once 5th container is added then 4th & 5th containers will share equal width on 2nd row. css use - case, Hint- Flexbox?
+
+### have you worked with Angular universal?
+
+### have you worked with JWT, Nodejs, Authentication.
+
+### content child vs content Children
+
+### what is the difference between slice and splice in javascript?
