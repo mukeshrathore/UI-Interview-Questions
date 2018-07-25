@@ -12,37 +12,17 @@
 
 ### Difference between a Pipe and Directive?
 
-### Difference between Include and Import in SCSS?
-
 ### How can you make 2 bundles for deploying on 2 different servers while making webpack bundling?
 
 ### Difference between AOT and JIT?
 
-### How to check whether given variable is integer or not?
-
 ### Difference Between Observable and Subject?
-
-### Sort an integer with using FOR loop but without using Sort Method?
-
-### what are mixins in scss?
-
-### what is describe method in unit testing?
 
 ### How would you share a component in other components?
 
 ### How to load 5GB of data efficiently on Browser?
 
 ### Features of reactive rxjs.
-
-### What are closures in javascript and their uses ?
-
-### How to create Static variable in javascript?
-
-### How to align 2 boxes horizontally and vertically center... Hint : flexbox ?
-
-### Difference Relative and Absolute positioning in css?
-
-### Targetting First-child in HTML using css.
 
 ### How can you acheive 10min loading of Page to 2m loading of Page - stream of Data?
 
@@ -56,15 +36,8 @@
 
 ### Have you worked with video Streaming?
 
-### Unit test tools you use?
 ====================================================
 ### What are Interceptors in Angular and have you used them?
-
-### Is Javascript pass by value or pass by reference?
-
-### Testing? which all tools worked apart from Jasmine.
-
-### Have you used AOP type of programming?
 
 ### What code have you done which makes you proud?...Providers and factories
 
@@ -78,12 +51,10 @@
 > - @Output 
 > - Subjects VS BehaviourSubject
 
-### i have 5 containers. Align them in such a way that 3 containers comes on first row (all will have same width) and 4th container if added will come to next line (it will take whole row) but once 5th container is added then 4th & 5th containers will share equal width on 2nd row. css use - case, Hint- Flexbox?
-
 ### have you worked with Angular universal?
 
 ### have you worked with JWT, Nodejs, Authentication.
 
 ### content child vs content Children
 
-### what is the difference between slice and splice in javascript?
+
