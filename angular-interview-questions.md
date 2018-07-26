@@ -2,7 +2,7 @@
 
 ### Difference between a Component and Directive?
 
-```
+
 Basically there are three types of directives in angular according to documentation:
 - Attribute Directive -- ngStyle used to give custom behaviour to the existing elements by applying some functions/logics.
 - Structural Directive -- *ngIf, *ngFor changes the DOM layout by adding and removing DOM elements. 
@@ -10,7 +10,6 @@ Basically there are three types of directives in angular according to documentat
 
 Component extends Directive. In this type of directive, you can use other directives whether it is custom or builtin.
 
-```
 > Reference: [Stackoverflow](https://stackoverflow.com/a/34616190)
 
 
