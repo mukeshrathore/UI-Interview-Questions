@@ -16,3 +16,5 @@
 **NODE** : [Nodejs interview Questions](./node-interview-questions.md)
 
 **Testing** : [Testing interview Questions](./testing-interview-questions.md) 
+
+**Miscellaneous** : [Miscellaneous Interview Questions](./miscellaneous-interview-questions.md)

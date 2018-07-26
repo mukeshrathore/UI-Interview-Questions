@@ -57,4 +57,9 @@
 
 ### content child vs content Children
 
+### Explain Bootstrapping Process in Angular
+
+### what are Life cycle hooks ?
+
+### 
 
