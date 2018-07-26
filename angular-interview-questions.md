@@ -1,22 +1,36 @@
 # Angular Interview Questions
 
 ### Difference between a Component and Directive?
-> Best Answer Reference: [Stackoverflow](https://stackoverflow.com/a/34616190)
 
-> ```
->There are 3 types of directives in angular:
->Attribute Directive -- ngStyle 
->Structural Directive -- *ngIf, *ngFor
->Components
->```
+```
+Basically there are three types of directives in angular according to documentation:
+- Attribute Directive -- ngStyle used to give custom behaviour to the existing elements by applying some functions/logics.
+- Structural Directive -- *ngIf, *ngFor changes the DOM layout by adding and removing DOM elements. 
+- Components -- These are directives with Template, Styles and Logic part. 
+
+Component extends Directive. In this type of directive, you can use other directives whether it is custom or builtin.
+
+```
+> Reference: [Stackoverflow](https://stackoverflow.com/a/34616190)
+
 
 ### Difference between a Pipe and Directive?
+Pipe is to manipulate data, while a directive is used for DOM manipulation.
+A pipe gets data as an input, transforms it and outputs this data in another way.
+A directive gets a DOM element it's "attached" to and enhances it with some kind of features.
 
 ### How can you make 2 bundles for deploying on 2 different servers while making webpack bundling?
 
 ### Difference between AOT and JIT?
 
+### Difference Between Observable and Promise?
+
 ### Difference Between Observable and Subject?
+> Reference: [Stackoverflow](https://stackoverflow.com/a/40231605)
+
+### Explain Bootstrapping Process in Angular
+
+### what are Life cycle hooks?
 
 ### How would you share a component in other components?
 
@@ -24,19 +38,19 @@
 
 ### Features of reactive rxjs.
 
-### How can you acheive 10min loading of Page to 2m loading of Page - stream of Data?
+### How can you achieve 10min loading of Page to 2m loading of Page - stream of Data?
 
-### What is Prototype related to Object? 
-
-### Services are Singleton and you can share data throughout the code. How can you avoid this situation.
+### Services are Singleton and you can share data throughout the code. How can you avoid this situation?
+Right, if Services are imported in AppModule as provider then you can share them throughout the code. Whereas if you import them in as individual provider for each component then the share data will be confined to that particular component.
 
 ### How you build your app using AOT. Hint - --aot Flag?
 
 ### What build tool you use for angular?
+Webpack.
 
 ### Have you worked with video Streaming?
 
-====================================================
+
 ### What are Interceptors in Angular and have you used them?
 
 ### What code have you done which makes you proud?...Providers and factories
@@ -53,13 +67,9 @@
 
 ### have you worked with Angular universal?
 
-### have you worked with JWT, Nodejs, Authentication.
-
 ### content child vs content Children
 
-### Explain Bootstrapping Process in Angular
 
-### what are Life cycle hooks ?
 
-### 
+
 

@@ -5,7 +5,7 @@
 - [3-common-javascript-closure-questions](https://www.coderbyte.com/algorithm/3-common-javascript-closure-questions)
 - [3-questions-to-watch-out-for-in-a-javascript-interview](https://medium.freecodecamp.org/3-questions-to-watch-out-for-in-a-javascript-interview-725012834ccb)
 - [10-common-javascript-interview-questions](https://www.coderbyte.com/algorithm/10-common-javascript-interview-questions)
-
+- [basic-array-manipulation-with-functions-in-javascript](https://www.coderbyte.com/algorithm/basic-array-manipulation-with-functions-in-javascript)
 
 ### Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz"
 
@@ -90,6 +90,8 @@ for (let j = 0; j < 5; j++) {
 
 ###  difference between var and let keyword. specially in terms of closure.
 >Ref link : [let-const-loop-heads](http://exploringjs.com/es6/ch_variables.html#sec_let-const-loop-heads)
+
+### What is Prototype related to Object? 
 
 
 
