@@ -91,7 +91,94 @@ for (let j = 0; j < 5; j++) {
 ###  difference between var and let keyword. specially in terms of closure.
 >Ref link : [let-const-loop-heads](http://exploringjs.com/es6/ch_variables.html#sec_let-const-loop-heads)
 
-### What is Prototype related to Object? 
+### What is Prototype related to Object?
+
+### What is Hoisting in javascript?
+In Javascript, You can use variable and function statements before declaring them because Javascript automatically hoist/declare all the variables and function statements.
+But Function expressions in Javascript are not hoisted and you can't use function expression before defining or declaring them.
+
+============================
+
+### How would you write a function that can be called only once? (not self envoking, you can call it, whenever you want, but only once) 
+
+ 
+
+### Write a function (getEvenAndSort) that can be called on any array, and it returns the subarray of only the even numbers, but sorted.
+
+[12,3,2,1,7,6].getEvenAndSort()
+
+ 
+
+### "🤗".length   //what does it return?  => it returns 2, because the smileface is presented by unicode char => two char length.
+
+### What do you get for this? "🤗".length - "🤗".length  
+
+### Implement a react component (it can be simple, can have it's own state) that has a button, which toggles the visibility of a paragraph, which displays some text. "Hello" for example. By default the greeting is hidden and clicking on the button, it gets visible. When clicking on it again, gets hidden.
+
+ 
+
+### How do you preserve the cart data for a user in order to show the updated data when she opens a new tab?
+
+ 
+
+### There was an image, width='500' height='300', which I had to implement with css.
+
+Markup:
+```html
+<section>
+
+   <article class='one'>One</article>
+
+   <article class='two>Two</article>
+
+   <article class='three'>Three</article>
+
+   <article class='four'>Four</article>
+
+</section>
+```
+
+
+### How to Flatten an array in JS
+
+### Given an API call and Callback. The requirement is to make a table or a list using these. You can use any framework.
+
+ 
+
+### How would you write a function that can be called only once? 
+
+
+### Design a simple tic tac toe game
+
+### Some questions about React, like where to fetch data in React component
+
+### Some Javascript questions, for example, how to use setTimeout(), how to use Closure, what happened when using new to create an instance
+
+### Some CSS questions
+
+### print ping pong alternatively in JavaScript
+
+### set interval();
+
+ 
+
+### Given an array string and numbers
+
+ 
+
+### Chess board proto creation: should not edit any of the HTML tags and should not add any classes. Only make use of generic DIV and need to add the CSS to it.
+
+ 
+
+### Multi sum functions: Common function accepting closures as well as generic return. Asynch function execution type.
+
+### Need to sort the anagrams from the array: Custom sorting logic needs to be written to support anagrams to appear one after the other.
+
+### React counter application: clicking on "+" should increment the counter and click on "-" should decrease the counter.
+
+### Prototype Programming: add the prototype method to filter out even numbers and sort the same. Should not mutate the input array.
+
+  
 
 
 

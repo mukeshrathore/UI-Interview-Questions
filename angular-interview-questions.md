@@ -61,12 +61,28 @@ Webpack.
 
 ### list down all the ways of communication between child and grand parent component?
 
-> - @Output 
+> - @Output / EventEmitter
 > - Subjects VS BehaviourSubject
 
 ### have you worked with Angular universal?
 
 ### content child vs content Children
+
+### How do you optimize angular build?
+
+### How do you optimize frontend for performance?
+
+### Explain zone.js in angular 
+
+### Explain Change Detection in angular 
+
+### How to you cancel Observable in angular?
+In Component, Observable gets activated only when we Subscribe to it. So unSubscribing the Subscription using unsubscribe() method will cancel the Observable.
+
+### Error handling in angular
+
+
+### How do you pass the data between components
 
 
 
