@@ -1,8 +1,6 @@
 # Angular Interview Questions
 
 ### Difference between a Component and Directive?
-
-
 Basically there are three types of directives in angular according to documentation:
 - Attribute Directive -- ngStyle used to give custom behaviour to the existing elements by applying some functions/logics.
 - Structural Directive -- *ngIf, *ngFor changes the DOM layout by adding and removing DOM elements. 
@@ -13,76 +11,159 @@ Component extends Directive. In this type of directive, you can use other direct
 > Reference: [Stackoverflow](https://stackoverflow.com/a/34616190)
 
 
+---
 ### Difference between a Pipe and Directive?
 Pipe is to manipulate data, while a directive is used for DOM manipulation.
 A pipe gets data as an input, transforms it and outputs this data in another way.
 A directive gets a DOM element it's "attached" to and enhances it with some kind of features.
 
-### How can you make 2 bundles for deploying on 2 different servers while making webpack bundling?
+---
+### How can you make 2 bundles for deploying on 2 
+different servers while making webpack bundling?
 
+---
 ### Difference between AOT and JIT?
 
+---
 ### Difference Between Observable and Promise?
 
+---
 ### Difference Between Observable and Subject?
 > Reference: [Stackoverflow](https://stackoverflow.com/a/40231605)
 
+---
 ### Explain Bootstrapping Process in Angular
 
-### what are Life cycle hooks?
 
+---
+### what are Lifecycle hooks?
+Angular uses lifecycle hooks to creates component, renders it, creates and renders its children, checks it when its data-bound properties change, and destroys it before removing it from the DOM.
+Directives do have same sets of Lifecycle hooks.
+There are basically 8 lifecycle hooks :
+
+lifecycle hooks | Purpose and Timing 
+--- | ---
+ngOnChanges | This method respond when angular set or reset data-bound input properties. It triggers everytime whenever one or more data-bound input properties changes.
+ngOnInit |  
+
+
+---
 ### How would you share a component in other components?
 
+---
 ### How to load 5GB of data efficiently on Browser?
 
+
+
+---
 ### Features of reactive rxjs.
 
-### How can you achieve 10min loading of Page to 2m loading of Page - stream of Data?
 
-### Services are Singleton and you can share data throughout the code. How can you avoid this situation?
+
+---
+### How can you achieve 10min loading of Page to 2m 
+
+
+loading of Page - stream of Data?
+
+---
+### Services are Singleton and you can share data 
+
+
+throughout the code. How can you avoid this situation?
 Right, if Services are imported in AppModule as provider then you can share them throughout the code. Whereas if you import them in as individual provider for each component then the share data will be confined to that particular component.
 
+---
 ### How you build your app using AOT. Hint - --aot Flag?
 
+
+
+---
 ### What build tool you use for angular?
+
+
 Webpack.
 
+---
 ### Have you worked with video Streaming?
 
 
-### What are Interceptors in Angular and have you used them?
 
-### What code have you done which makes you proud?...Providers and factories
+
+---
+### What are Interceptors in Angular and have you used 
+
+them?
+
+---
+### What code have you done which makes you proud?
+
+
+...Providers and factories
 
 > - custom theme based on angular material.
 > - Authentication before loading of angular code or modules
 
+---
 ### Difference between httpOptions and httpParameters?
 
-### list down all the ways of communication between child and grand parent component?
+
+
+---
+### list down all the ways of communication between child 
+
+
+and grand parent component?
 
 > - @Output / EventEmitter
 > - Subjects VS BehaviourSubject
 
+---
 ### have you worked with Angular universal?
 
+
+
+---
 ### content child vs content Children
 
+
+
+---
 ### How do you optimize angular build?
 
+
+
+---
 ### How do you optimize frontend for performance?
 
+
+
+---
 ### Explain zone.js in angular 
 
+
+
+---
 ### Explain Change Detection in angular 
 
-### How to you cancel Observable in angular?
-In Component, Observable gets activated only when we Subscribe to it. So unSubscribing the Subscription using unsubscribe() method will cancel the Observable.
 
+
+---
+### How to you cancel Observable in angular?
+
+
+...In Component, Observable gets activated only when we Subscribe to it. So unSubscribing the Subscription using unsubscribe() method will cancel the Observable.
+
+---
 ### Error handling in angular
 
 
+
+
+---
 ### How do you pass the data between components
+
+
 
 
 
