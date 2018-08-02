@@ -23,10 +23,34 @@ different servers while making webpack bundling?
 
 ---
 ### Difference between AOT and JIT?
+JIT | AOT
+---|---
+JIT compiles the application in Browser at run-time | AOT compiles the application at build-time
+Browser needs to download angular compiler to compile the application | Browser do not need any compiler as the code is already compiled before coming to Browser
+While in JIT compilation takes place in Browser, user have to wait until compilation finishes. | User don't need to wait as application is precompiled
+Template binding errors are encountered only at run-time | Errors can be caught at Build-time
+By Default in-action at the time of `ng serve` and `ng build` | need to add --aot flag to activate AOT compilation in `ng serve --aot` and `ng build --aot`
 
 ---
 ### Difference Between Observable and Promise?
+Both Observable and Promise are used for Async operations.
 
+Promise: 
+- A promise handles a single event when async operation completes or fails.
+- ES6 does not support cancellation of promise but other libraries like Bluebird do support but that turns out to be overhead on application.
+- Promise methods:  try/catch/finally , async/await
+
+Observable:
+Observables provide support for passing messages between publishers and subscribers in your application. 
+Observables are declarative—that is, you define a function for publishing values, but it is not executed until a consumer subscribes to it. The subscribed consumer then receives notifications until the function completes, or until they unsubscribe.
+
+- An Observable work on a stream of Events and these events will be passed until the subscriber unsubscribes it. 
+- An Observable can be cancelled by calling unsubscribe() method on Observable's subscription.
+- Apart from it's own retry() and replay() operators, Observable also provides operators like map, filter, reduce ... similar to an array  
+
+Observables are lazy collections of multiple values over time.
+
+> Ref: [StackOverflow](https://stackoverflow.com/a/40135509)
 ---
 ### Difference Between Observable and Subject?
 > Reference: [Stackoverflow](https://stackoverflow.com/a/40231605)
@@ -124,9 +148,21 @@ and grand parent component?
 
 
 ---
-### content child vs content Children
+### ViewChildren, ContentChild, ContentChildren, and QueryList in Angular
+@ViewChildren —
+Returns the specified elements or directives from the view DOM as QueryList
 
+`ViewChildren` don’t include elements that exist within the `ng-content` tag.
 
+`ContentChildren` includes only elements that exists within the `ng-content` tag.
+
+@ContentChildren —
+Returns the specified elements or directives from the content DOM as QueryList
+
+Remember —
+The QueryList is initialized only before the ngAfterContentInit lifecycle hook, therefore, is available only from this point.
+
+> Ref: [Medium](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
 
 ---
 ### How do you optimize angular build?
@@ -164,8 +200,74 @@ and grand parent component?
 ### How do you pass the data between components
 
 
+---
+### List of most commonly used operators/methods of Observable
 
 
+---
+### Cold Vs Hot Observables and how to make a Observable Hot?
+
+---
+### What are the ways to create an Object?
+
+---
+### Difference between undefined and undeclared
+
+---
+### How do you compare two Objects
+
+---
+### use-case of IIFE
+
+---
+### Difference between for in and for of loop?
+`for... in` loop: it iterate over key
+`for... of` loop: it iterate over value
+
+```javascript
+var arr = [3, 5, 7];
+for (var i in arr) {
+   console.log(i); // logs "0", "1", "2"
+}
+
+for (var i of arr) {
+   console.log(i); // logs "3", "5", "7"
+}
+
+```
+
+above eg. is for Arrays. What about Objects?
+
+---
+### Difference between let and var with respect to Closure context
+
+---
+### Have you ever used external Routing libraries or External Router in angular
+
+---
+### which JavaScript library that matches paths against registered routes ?
+route-recognizer.js
+
+---
+### What kind of Design Pattern Angular Follows?
+
+---
+### Design Patterns in JS ?
+
+--- 
+### Filter, map, reduce on Array and Array of Objects
+
+---
+### Assign, create, bind on JS Objects
+
+---
+### OnPush Change Detection Strategy
+
+---
+### Difference between Angular 1 and angular 2
+
+---
+###  
 
 
 
