@@ -85,43 +85,32 @@ ngOnInit |
 
 
 ---
-### How can you achieve 10min loading of Page to 2m 
-
-
-loading of Page - stream of Data?
+### How can you achieve 10min loading of Page to 2m loading of Page - stream of Data?
 
 ---
 ### Services are Singleton and you can share data 
-
 
 throughout the code. How can you avoid this situation?
 Right, if Services are imported in AppModule as provider then you can share them throughout the code. Whereas if you import them in as individual provider for each component then the share data will be confined to that particular component.
 
 ---
-### How you build your app using AOT. Hint - --aot Flag?
-
-
+### How you build your app using AOT?
+`ng build --aot`
 
 ---
 ### What build tool you use for angular?
-
-
-Webpack.
+Webpack
 
 ---
 ### Have you worked with video Streaming?
 
 
-
-
 ---
-### What are Interceptors in Angular and have you used 
+### What are Interceptors in Angular and have you used them?
 
-them?
 
 ---
 ### What code have you done which makes you proud?
-
 
 ...Providers and factories
 
@@ -131,20 +120,14 @@ them?
 ---
 ### Difference between httpOptions and httpParameters?
 
-
-
 ---
-### list down all the ways of communication between child 
-
-
-and grand parent component?
+### list down all the ways of communication between child and grand parent component?
 
 > - @Output / EventEmitter
 > - Subjects VS BehaviourSubject
 
 ---
 ### have you worked with Angular universal?
-
 
 
 ---
@@ -208,57 +191,11 @@ The QueryList is initialized only before the ngAfterContentInit lifecycle hook, 
 ### Cold Vs Hot Observables and how to make a Observable Hot?
 
 ---
-### What are the ways to create an Object?
-
----
-### Difference between undefined and undeclared
-
----
-### How do you compare two Objects
-
----
-### use-case of IIFE
-
----
-### Difference between for in and for of loop?
-`for... in` loop: it iterate over key
-`for... of` loop: it iterate over value
-
-```javascript
-var arr = [3, 5, 7];
-for (var i in arr) {
-   console.log(i); // logs "0", "1", "2"
-}
-
-for (var i of arr) {
-   console.log(i); // logs "3", "5", "7"
-}
-
-```
-
-above eg. is for Arrays. What about Objects?
-
----
-### Difference between let and var with respect to Closure context
-
----
 ### Have you ever used external Routing libraries or External Router in angular
 
----
-### which JavaScript library that matches paths against registered routes ?
-route-recognizer.js
 
 ---
 ### What kind of Design Pattern Angular Follows?
-
----
-### Design Patterns in JS ?
-
---- 
-### Filter, map, reduce on Array and Array of Objects
-
----
-### Assign, create, bind on JS Objects
 
 ---
 ### OnPush Change Detection Strategy
@@ -266,8 +203,7 @@ route-recognizer.js
 ---
 ### Difference between Angular 1 and angular 2
 
----
-###  
+  
 
 
 
