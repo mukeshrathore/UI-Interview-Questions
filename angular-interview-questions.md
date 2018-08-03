@@ -54,7 +54,7 @@ Observables are lazy collections of multiple values over time.
 ---
 ### Difference Between Observable and Subject?
 > Reference: [Stackoverflow](https://stackoverflow.com/a/40231605)
-
+> https://hassantariqblog.wordpress.com/2016/12/03/angular2-difference-between-a-behavior-subject-and-an-observable/ 
 ---
 ### Explain Bootstrapping Process in Angular
 
@@ -185,8 +185,8 @@ The QueryList is initialized only before the ngAfterContentInit lifecycle hook, 
 
 ---
 ### List of most commonly used operators/methods of Observable
-
-
+>ref: [x-team](https://x-team.com/blog/rxjs-observables/)
+>ref: [toddmotto](https://toddmotto.com/rxjs-observables-observers-operators)
 ---
 ### Cold Vs Hot Observables and how to make a Observable Hot?
 

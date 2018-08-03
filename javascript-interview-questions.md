@@ -81,7 +81,7 @@ for (let j = 0; j < 5; j++) {
 
 ---
 ### What are closures in javascript and their uses ?
-
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36 
 ---
 ### How to create Static variable in javascript?
 
@@ -263,6 +263,54 @@ route-recognizer.js
 
 ---
 ### Assign, create, bind on JS Objects
+
+### What is the output of console? How can we make z value print 10 instead of 100 without touching function declaration.
+```javascript
+var z = 100,
+    x = { z : 10 },
+function printNum(){
+    console.log(this.z);
+}
+printNum();
+
+Answer: printNum.call(x)
+```
+
+---
+### Write a function specialCase on "Hello".specialCase() to output H_e_l_l_o
+
+---
+### difference between function declaration `function x(){}` and function expression(arrow function) `()=>{}`?
+
+---
+### How to know that whether the Object `{x:1, y:2, z:8, b:null, a:[10]}` contains array in it? ...Hint : hasOwnProperty
+
+---
+### What is * in css
+
+---
+### We have used mm, cm units in css, Have you used km in css?
+
+---
+### what is fr unit? Hint its new unit introduced in css grid
+
+---
+### what is memory heap and How to determine memory leakage?
+
+---
+### In the context of Browser, what is Stack and eventloop?
+
+---
+### How do you know any point in the application that how much size your application has?
+
+---
+### Where are timers and variables stored in Javascript?
+
+---
+### Compare Javascript Module Systems - commonJS vs AMD vs ES2015
+
+
+
 
 
 
