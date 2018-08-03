@@ -295,9 +295,6 @@ Answer: printNum.call(x)
 ### what is fr unit? Hint its new unit introduced in css grid
 
 ---
-### what is memory heap and How to determine memory leakage?
-
----
 ### In the context of Browser, what is Stack and eventloop?
 
 ---
@@ -308,6 +305,40 @@ Answer: printNum.call(x)
 
 ---
 ### Compare Javascript Module Systems - commonJS vs AMD vs ES2015
+
+---
+## Memory Management in Javascript
+
+
+### What is garbage?
+All variables which can not be reached from root node are considered as Garbage.
+
+
+### Garbage Collection process?
+Garbage collection process takes place in 2 phases:
+Phase 1: Find all Garbages
+Phase 2: Return memory used by garbage variable to system
+
+---
+### Difference between stack and heap memory?
+Variables in JavaScript (and most other programming languages) are stored in two places: stack and heap. 
+>Ref: [glebbahmutov.com](https://glebbahmutov.com/blog/javascript-stack-size/)
+
+Stack is used for static memory allocation and Heap for dynamic memory allocation, both stored in the computer's RAM. Variables allocated on the stack are stored directly to the memory and access to this memory is very fast, and it's allocation is dealt with when the program is compiled.
+>Ref: [net-informations](http://net-informations.com/faq/net/stack-heap.htm)
+
+> Ref: [Memory_Management_in_JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+
+---
+### what is memory heap and How to determine memory leakage?
+Memory leakage can be detected by comparing 3 memory snapshot.
+
+>Ref : [4-types-of-leaks-in-js](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
+
+There are 2 memory pools : Young Memory pool and Old Memory Pool
+- Whenever a new keyword is used to create Object or Array, the memory is allocated from 'Young' memory pool and whenever the young memory pool is totally consumed garbage collector is forced to run and free up Memory.
+
+
 
 
 
