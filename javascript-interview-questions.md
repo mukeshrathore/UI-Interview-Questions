@@ -75,9 +75,40 @@ for (let j = 0; j < 5; j++) {
 
 ---
 ### How to check whether given variable is integer or not?
+use isInteger() to check whether given variable is integer or not.
+
+```javascript
+Number.isInteger(5.2) // false
+Number.isInteger(4) //true
+```
 
 ---
-### Sort an integer with using FOR loop but without using Sort Method?
+### Sort an Array with using FOR loop but without using Sort Method?
+
+```javascript
+
+function bubbleSort(array) {
+  var done = false;
+  while (!done) {
+    done = true;
+    for (var i = 1; i < array.length; i += 1) {
+      if (array[i - 1] > array[i]) {
+        done = false;
+        var tmp = array[i - 1];
+        array[i - 1] = array[i];
+        array[i] = tmp;
+      }
+    }
+  }
+
+  return array;
+}
+
+var number = [1,43,23,6,10,5,9,100,09,2];
+bubbleSort(number); 
+console.log(numbers); //[1, 2, 5, 6, 9, 9, 10, 23, 43, 100]
+
+```
 
 ---
 ### What are closures in javascript and their uses ?
@@ -312,7 +343,6 @@ Answer: printNum.call(x)
 
 ### What is garbage?
 All variables which can not be reached from root node are considered as Garbage.
-
 
 ### Garbage Collection process?
 Garbage collection process takes place in 2 phases:
