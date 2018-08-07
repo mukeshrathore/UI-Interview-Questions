@@ -113,8 +113,47 @@ console.log(numbers); //[1, 2, 5, 6, 9, 9, 10, 23, 43, 100]
 ---
 ### What are closures in javascript and their uses ?
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36 
+
 ---
 ### How to create Static variable in javascript?
+
+Static variables are variables, typically used in functions, that maintain their value between function calls. Javascript does not support static variables per se; their is no static keyword in the language. However in javascript all functions are also objects and we can use this fact to simulate static variables. All we have to do is create a variable that is a member of the function, and since it's now part of an object, the value will be retained between calls. While there aren't truly static in the strictest sense of the word, they maintain their value between functions calls, and that usually serves the purpose. 
+
+As an example, consider a completely lame, but very instructive, function that keeps track of the number of times that it has been called. Here's how it might look: 
+
+```javascript
+
+function countMyself() {
+    // Check to see if the counter has been initialized
+    if ( typeof countMyself.counter == 'undefined' ) {
+        // It has not... perform the initilization
+        countMyself.counter = 0;
+    }
+
+    // Do something stupid to indicate the value
+    alert(++countMyself.counter);
+}
+
+```
+Each time that the countMyself function gets called from the page, the value is shown increasing by one (which means that the value is retained between calls). Using this trick, you can easily simulate static variables in Javascript.
+
+> Ref: [stackoverflow](https://stackoverflow.com/questions/1535631/static-variables-in-javascript)
+
+---
+### How to use Static variable in Typescript?
+
+
+--- 
+### What all features you have used from Typescript?
+
+---
+### What are pitfalls of using Typescript?
+
+---
+### Why do you prefer Webpack over Gulp and Grunt
+
+---
+### What are namespace in javascript
 
 ---
 ### Is Javascript pass by value or pass by reference?
@@ -368,7 +407,23 @@ Memory leakage can be detected by comparing 3 memory snapshot.
 There are 2 memory pools : Young Memory pool and Old Memory Pool
 - Whenever a new keyword is used to create Object or Array, the memory is allocated from 'Young' memory pool and whenever the young memory pool is totally consumed garbage collector is forced to run and free up Memory.
 
+---
+### How to build npm-package so that others can use my re-usable components ?
 
+---
+### How to implement polymorphism in typescript. My component should not know about the service i am using at component level But at the service end, i can use mock service or real service ?
+
+--- 
+### How to convert javascript libraries so that you can use them in Angular projects ?
+
+---
+### Javascript do not support interfaces then what happens to typescript interfaces?
+
+---
+### What challenges you faced while implementing current project?
+Implementing Single sign-on feature on Angular UI. As a solution, we used APP_INITIALIZER for angular to complete this task. 
+
+> Ref : [hook-into-angular-initialization-process](https://dormoshe.io/articles/hook-into-angular-initialization-process-8)
 
 
 
