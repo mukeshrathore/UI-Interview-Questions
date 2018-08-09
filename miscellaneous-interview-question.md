@@ -8,3 +8,15 @@
 ---
 ### Which SDLC pattern you follow and Why - agile or waterfall?
 
+
+### List down all the VSC extensions you use for code development?
+- TSLint
+- Angular Language Service
+- Angular 2 Typescript Emmet
+- JShint
+- JSLint
+- Live Server
+- Move TS
+- Path Intellisense
+- Typescript Hero.
+
