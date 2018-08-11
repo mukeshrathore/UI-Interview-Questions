@@ -3,11 +3,12 @@
 # UI-Interview-Questions
 ### Below list of Interview Questions are based on my own experience with different Interviewers:
 
-**HTML** : [HTML and HTML5 interview Questions](./html-interview-questions.md) 
 
-**CSS** : [CSS, CSS3, LESS and SCSS interview Questions](./css-interview-questions.md) 
+**HTML & CSS** : [HTML, HTML5, CSS, CSS3, LESS and SCSS interview Questions](./html-css-interview-questions.md) 
 
 **JAVASCRIPT** : [JavaScript interview Questions](./javascript-interview-questions.md) 
+
+**TYPESCRIPT** : [TypeScript interview Questions](./typescript-interview-questions.md) 
 
 **ANGULAR** : [AngularJS and Angular interview Questions](./angular-interview-questions.md) 
 

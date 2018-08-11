@@ -77,11 +77,25 @@ for (let j = 0; j < 5; j++) {
 ### How to check whether given variable is integer or not?
 use isInteger() to check whether given variable is integer or not.
 
+Using built-in method of Number
 ```javascript
 Number.isInteger(5.2) // false
 Number.isInteger(4) //true
 ```
 
+Different ways of Using custom function to check same condition
+```javascript
+function checkInteger(x){
+    if(Math.floor(x)===x){console.log('Yes. Number is Integer.')}else{console.log('Number is not integer')} // Using if-else. Similarly Math.ceil method could also be used.
+}
+
+function checkInteger(x){
+    Math.floor(x)===x?console.log('Yes. Number is Integer.'):console.log('Number is not integer') // Using ternary operators
+}
+
+// Try using Prototype
+
+```
 ---
 ### Sort an Array with using FOR loop but without using Sort Method?
 
@@ -135,31 +149,18 @@ function countMyself() {
 }
 
 ```
+
 Each time that the countMyself function gets called from the page, the value is shown increasing by one (which means that the value is retained between calls). Using this trick, you can easily simulate static variables in Javascript.
 
 > Ref: [stackoverflow](https://stackoverflow.com/questions/1535631/static-variables-in-javascript)
-
----
-### How to use Static variable in Typescript?
-
-
---- 
-### What all features you have used from Typescript?
-
----
-### What are pitfalls of using Typescript?
-
----
-### Why do you prefer Webpack over Gulp and Grunt
 
 ---
 ### What are namespace in javascript
 
 ---
 ### Is Javascript pass by value or pass by reference?
+Please note variables are pass by value and Objects(arrays,functions parameters) are pass by reference 
 
----
-### Have you used AOP type of programming?
 
 ---
 ### what is the difference between slice and splice in javascript?
@@ -167,8 +168,6 @@ Each time that the countMyself function gets called from the page, the value is 
 ---
 ### Find the missing number from unsorted array without using sort method.
 
----
-### [12,3,10,5,2].getEvenAndSortMethod()
 
 ---
 ###  difference between var and let keyword. specially in terms of closure.
@@ -190,46 +189,28 @@ But Function expressions in Javascript are not hoisted and you can't use functio
  
 
 ---
-### Write a function (getEvenAndSort) that can be called on any array, and it returns the subarray of only the even numbers, but sorted.
+### Write a function (getEvenAndSort) that can be called on any array, and it returns the subarray of only the even numbers, but sorted. [12,3,2,1,7,6].getEvenAndSort() , [12,3,10,5,2].getEvenAndSortMethod()
 
-[12,3,2,1,7,6].getEvenAndSort()
 
  
 
 ---
-### "🤗".length   //what does it return?  => it returns 2, because the smileface is presented by unicode char => two char length.
+### "🤗".length   //what does it return? 
+it returns 2, because the smileface is presented by unicode char => two char length.
 
 ---
 ### What do you get for this? "🤗".length - "🤗".length  
+0
 
----
-### Implement a react component (it can be simple, can have it's own state) that has a button, which toggles the visibility of a paragraph, which displays some text. "Hello" for example. By default the greeting is hidden and clicking on the button, it gets visible. When clicking on it again, gets hidden.
 
  
 
 ---
 ### How do you preserve the cart data for a user in order to show the updated data when she opens a new tab?
-
- 
-
----
-### There was an image, width='500' height='300', which I had to implement with css.
-
-Markup:
-```html
-<section>
-
-   <article class='one'>One</article>
-
-   <article class='two>Two</article>
-
-   <article class='three'>Three</article>
-
-   <article class='four'>Four</article>
-
-</section>
-```
-
+Multiple ways : 
+1. Save the cart data in local Storage - retrieve it on new tab (browser based solution)
+2. Use getters and setters in Service (Using Angular,React, javascript)
+3. Pass the details in url. But not effecient way of doing the things.
 
 ---
 ### How to Flatten an array in JS
@@ -246,41 +227,28 @@ Markup:
 ---
 ### Design a simple tic tac toe game
 
----
-### Some questions about React, like where to fetch data in React component
 
 ---
-### Some Javascript questions, for example, how to use setTimeout(), how to use Closure, what happened when using new to create an instance
+### how to use setTimeout()? 
 
 ---
-### Some CSS questions
+### how to use Closure? 
+
+---
+### what happened when using new keyword to create an instance?
+
 
 ---
 ### print ping pong alternatively in JavaScript
 
 ---
-### set interval();
-
- 
-
----
-### Given an array string and numbers
-
- 
-
----
-### Chess board proto creation: should not edit any of the HTML tags and should not add any classes. Only make use of generic DIV and need to add the CSS to it.
-
- 
+### usecase of setInterval();
 
 ---
 ### Multi sum functions: Common function accepting closures as well as generic return. Asynch function execution type.
 
 ---
 ### Need to sort the anagrams from the array: Custom sorting logic needs to be written to support anagrams to appear one after the other.
-
----
-### React counter application: clicking on "+" should increment the counter and click on "-" should decrease the counter.
 
 ---
 ### Prototype Programming: add the prototype method to filter out even numbers and sort the same. Should not mutate the input array.
@@ -293,6 +261,7 @@ Markup:
 
 ---
 ### How do you compare two Objects
+Two Object can't be compared with == or ===. You need to check their property one-by-one.
 
 ---
 ### use-case of IIFE
@@ -355,20 +324,9 @@ Answer: printNum.call(x)
 ---
 ### How to know that whether the Object `{x:1, y:2, z:8, b:null, a:[10]}` contains array in it? ...Hint : hasOwnProperty
 
----
-### What is * in css
 
 ---
-### We have used mm, cm units in css, Have you used km in css?
-
----
-### what is fr unit? Hint its new unit introduced in css grid
-
----
-### In the context of Browser, what is Stack and eventloop?
-
----
-### How do you know any point in the application that how much size your application has?
+### How do you know at any point in the application that how much size your application has?
 
 ---
 ### Where are timers and variables stored in Javascript?
@@ -407,17 +365,7 @@ Memory leakage can be detected by comparing 3 memory snapshot.
 There are 2 memory pools : Young Memory pool and Old Memory Pool
 - Whenever a new keyword is used to create Object or Array, the memory is allocated from 'Young' memory pool and whenever the young memory pool is totally consumed garbage collector is forced to run and free up Memory.
 
----
-### How to build npm-package so that others can use my re-usable components ?
 
----
-### How to implement polymorphism in typescript. My component should not know about the service i am using at component level But at the service end, i can use mock service or real service ?
-
---- 
-### How to convert javascript libraries so that you can use them in Angular projects ?
-
----
-### Javascript do not support interfaces then what happens to typescript interfaces?
 
 ---
 ### What challenges you faced while implementing current project?

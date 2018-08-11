@@ -20,3 +20,12 @@
 - Path Intellisense
 - Typescript Hero.
 
+---
+### Why do you prefer Webpack over Gulp and Grunt
+
+---
+### Have you used AOP type of programming?
+
+---
+### In the context of Browser, what is Stack and eventloop?
+

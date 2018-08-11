@@ -51,10 +51,12 @@ Observables are declarative—that is, you define a function for publishing valu
 Observables are lazy collections of multiple values over time.
 
 > Ref: [StackOverflow](https://stackoverflow.com/a/40135509)
+
 ---
 ### Difference Between Observable and Subject?
 > Reference: [Stackoverflow](https://stackoverflow.com/a/40231605)
 > https://hassantariqblog.wordpress.com/2016/12/03/angular2-difference-between-a-behavior-subject-and-an-observable/ 
+
 ---
 ### Explain Bootstrapping Process in Angular
 
@@ -88,9 +90,8 @@ ngOnInit |
 ### How can you achieve 10min loading of Page to 2m loading of Page - stream of Data?
 
 ---
-### Services are Singleton and you can share data 
+### Services are Singleton and you can share data throughout the code. How can you avoid this situation?
 
-throughout the code. How can you avoid this situation?
 Right, if Services are imported in AppModule as provider then you can share them throughout the code. Whereas if you import them in as individual provider for each component then the share data will be confined to that particular component.
 
 ---
@@ -115,7 +116,7 @@ Webpack
 ...Providers and factories
 
 > - custom theme based on angular material.
-> - Authentication before loading of angular code or modules
+> - Authentication before loading of angular code or modules (implemenation of single sign-on)
 
 ---
 ### Difference between httpOptions and httpParameters?
@@ -170,7 +171,6 @@ The QueryList is initialized only before the ngAfterContentInit lifecycle hook, 
 ---
 ### How to you cancel Observable in angular?
 
-
 ...In Component, Observable gets activated only when we Subscribe to it. So unSubscribing the Subscription using unsubscribe() method will cancel the Observable.
 
 ---
@@ -187,6 +187,7 @@ The QueryList is initialized only before the ngAfterContentInit lifecycle hook, 
 ### List of most commonly used operators/methods of Observable
 >ref: [x-team](https://x-team.com/blog/rxjs-observables/)
 >ref: [toddmotto](https://toddmotto.com/rxjs-observables-observers-operators)
+
 ---
 ### Cold Vs Hot Observables and how to make a Observable Hot?
 
@@ -203,7 +204,8 @@ The QueryList is initialized only before the ngAfterContentInit lifecycle hook, 
 ---
 ### Difference between Angular 1 and angular 2
 
-  
+--- 
+### How to convert javascript libraries so that you can use them in Angular projects ?
 
 
 
