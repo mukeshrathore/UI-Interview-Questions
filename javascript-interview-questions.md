@@ -373,7 +373,13 @@ Implementing Single sign-on feature on Angular UI. As a solution, we used APP_IN
 
 > Ref : [hook-into-angular-initialization-process](https://dormoshe.io/articles/hook-into-angular-initialization-process-8)
 
+---
+### What is the difference between Set and Array?
+>Ref : [ES6-Set-vs-Array](https://medium.com/front-end-hacking/es6-set-vs-array-what-and-when-efc055655e1a)
 
+---
+### Name some common data Structures in Javascript? Do you know some common data structures and algorithms?
+>Ref : [Data Structures and Algorithms in JavaScript](https://www.youtube.com/watch?v=t2CEgPsws3U&t=29s) 
 
 
 
