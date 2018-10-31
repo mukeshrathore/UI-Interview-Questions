@@ -379,6 +379,18 @@ Implementing Single sign-on feature on Angular UI. As a solution, we used APP_IN
 
 ---
 ### Name some common data Structures in Javascript? Do you know some common data structures and algorithms?
+1. Stacks
+2. Sets
+3. Queues and Priority Queues 
+4. Binary Search Trees
+5. Hash Tables
+6. Linked List
+7. Trie
+8. Heap (Max and Min)
+9. Heap Visualisation
+10. Graphs: adjacency list, adjacency matrix, incidence matrix
+11. Graphs: breadth-first search
+
 >Ref : [Data Structures and Algorithms in JavaScript](https://www.youtube.com/watch?v=t2CEgPsws3U&t=29s) 
 
 
