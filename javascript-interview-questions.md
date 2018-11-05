@@ -393,6 +393,10 @@ Implementing Single sign-on feature on Angular UI. As a solution, we used APP_IN
 
 >Ref : [Data Structures and Algorithms in JavaScript](https://www.youtube.com/watch?v=t2CEgPsws3U&t=29s) 
 
+---
+### Difference Between Arrays and Linked List?
+
+
 
 
 
